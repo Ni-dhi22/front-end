@@ -1,0 +1,63 @@
+.sidebar{
+    width:1000px;
+    height:100vh;
+    padding-left:70px;
+}
+.sidebar-content{
+   width:400px;
+   height:100vh;
+}
+.rose{
+    background-color:  hsl(20, 50%, 98%);
+}
+.product-description p{
+    color: hsl(7, 20%, 60%);
+}
+.product-description h5{
+    color: hsl(14, 65%, 9%);
+    font-size:16px;
+}
+.price{
+    color:hsl(14, 86%, 42%);
+    font-weight: 400;
+}
+.btn-light{
+   position: absolute;
+   bottom: -20px; 
+   left: 47%;
+   transform: translateX(-50%);
+   border-color: hsl(14, 65%, 9%) !important;
+}
+.product-image{
+   width:280px;
+}
+.product-image:hover{
+    border:  2px solid hsl(14, 86%, 42%);
+}
+.text{
+    font-size:12px;
+    background-color:   hsl(20, 50%, 98%);
+}
+.btn-warning{
+    background-color: hsl(14, 86%, 42%) !important;
+    border:none !important;
+}
+.heading{
+    color:hsl(14, 86%, 42%);
+}
+.first-price{
+    color:hsl(14, 25%, 72%);
+}
+.second-price{
+    color:hsl(12, 20%, 44%);
+    font-weight: 600;
+}
+.menu{
+    color: hsl(14, 65%, 9%);
+}
+.order-menu h6{
+    color: hsl(14, 65%, 9%);
+}
+.total{
+    color: hsl(14, 65%, 9%);
+}

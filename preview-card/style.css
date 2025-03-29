@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+.dark-blue{
+    background-color: hsl(233, 47%, 7%);
+}
+.row{
+    display:flex;
+}
+.card h1{
+    color: hsl(0, 0%, 100%);
+    padding-top:50px;
+    font-size:35px;
+}
+.violet{
+    color: hsl(277, 64%, 61%);
+}
+.card-text,p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height:22px;
+}
+.subscriber h2{
+    color:  hsl(0, 0%, 100%);
+}
+.des-blue{
+    background-color: hsl(244, 38%, 16%);
+}
+.card {
+    width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    padding-left:60px;
+}
+.card img {
+    object-fit: contain;
+    height:100%;
+    width:100%;
+}
+.subscribers{
+    display:flex;
+    align-items:center;
+    display: inline;
+}
+.para{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.overlay{
+    background-color: hsl(277, 64%, 61%);
+}
+
+  @media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        width: 90%;
+    }
+    .card img, .card-text {
+        width: 100%;
+    }
+}

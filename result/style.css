@@ -1,0 +1,134 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pale-blue{
+    background-color: hsl(221, 100%, 96%);
+}
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:250px;
+}
+.result{
+    background:linear-gradient( hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+.card-title h2,p{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+}
+.card-subtitle h3,h4{
+    color: hsl(0, 0%, 100%);
+    font-size:50px;
+    text-align: center;
+}
+.card-description h4{
+    font-size:30px;
+}
+.card-description p{
+    font-size: 18px;
+    font-weight:500px;
+}
+.bg-circle{
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius:100%;
+    height: 137px;
+    width: 143px;
+    margin: 0 auto;
+}
+.summary-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color:hsl(224, 30%, 27%);
+}
+.summary-item .text {
+    flex:1;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.score {
+    font-weight: bold;
+    color:hsl(224, 30%, 27%);
+    margin-left: 5px;
+}
+.bg-danger-subtle{
+    background-color:hsla(0, 100%, 67%, 0.064);
+}
+.bg-warning-subtle{
+    background-color:hsla(39, 100%, 56%, 0.048) ;
+}
+.bg-success-subtle{
+    background-color: hsla(166, 100%, 37%, 0.055);
+}
+.bg-primary-subtle{
+    background-color:  hsla(234, 85%, 45%, 0.048);
+}
+.danger{
+    color:hsl(0, 100%, 67%);
+}
+.warning{
+    color:hsl(39, 100%, 56%);
+}
+.success{
+    color:hsl(166, 100%, 37%);
+}
+.primary{
+    color: hsl(234, 85%, 45%);
+}
+.btn-dark{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+    border:none;
+    border-radius:50px;
+    width:100%;
+    padding:15px;
+    font-weight: bold;
+
+}
+.center{
+    text-align: center;
+    margin-top:30px;
+}
+.card-subtitle h3{
+    padding-top:30px;
+}
+.total{
+    color:hsl(241, 100%, 89%);
+    font-size:18px;
+}
+@media(min-width: 375px) and (max-width: 767px){
+    .container{
+        flex-direction: column;
+    }
+    .card {
+        width: 250px;
+        height: 150px;
+    }
+    .summary-card {
+        top: 15px;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 1440px){
+    .card {
+        width: 400px;
+        height: 220px;
+    }
+    .summary-card {
+        top: 25px;
+    }
+}
+
