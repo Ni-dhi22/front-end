@@ -1,0 +1,49 @@
+.lighter-green{
+    background-color:  hsl(148, 38%, 91%);
+}
+.card{
+    width:800px;
+}
+.btn-success{
+    background-color:  hsl(169, 82%, 27%) !important;
+    border:none !important;
+}
+.form-control{
+    border-color: hsl(187, 24%, 22%) !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+    border-color:  hsl(169, 82%, 27%) !important;
+}
+.form-control:focus{
+    background-color: hsl(148, 38%, 91%) !important;
+}
+.form-check-input:focus{
+    color:  hsl(0, 0%, 100%) !important;
+}
+.form-check-input:checked{
+   background-color:  hsl(169, 82%, 27%) !important;
+   border-color: hsl(169, 82%, 27%) !important;
+}
+.form-check-input:focus{
+    box-shadow: none !important;
+}
+.form-check-input{
+    border-color:hsl(186, 15%, 59%) !important;
+}
+.red{
+    color: hsl(0, 66%, 54%);
+}
+.container{
+    justify-content: center;
+   display:flex;
+   flex-wrap: wrap;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+#detail{
+    display:none;
+}
